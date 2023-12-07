@@ -34,7 +34,16 @@ The `Item` model includes two methods for soft delete:
 
 A default scope has been added to the `Item` model to exclude "deleted" items from normal queries. This ensures that soft-deleted items are not included in regular database queries.
 
-```ruby
 class Item < ApplicationRecord
   default_scope { where(deleted_at: nil) }
 end
+## Testing
+
+RSpec tests have been implemented to ensure the correct functionality of soft delete features. These tests cover:
+
+Soft deleting an item.
+Restoring a soft-deleted item.
+Verifying that soft-deleted items are excluded from normal queries.
+
+bundle exec rspec
+

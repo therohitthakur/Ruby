@@ -14,9 +14,7 @@ This repository contains the implementation of a basic soft delete functionality
 - [Soft Delete Implementation](#soft-delete-implementation)
 - [Default Scope](#default-scope)
 - [Testing](#testing)
-- [Documentation](#documentation)
-- [Submission Guidelines](#submission-guidelines)
-- [Specific Instructions](#specific-instructions)
+
 
 ## Model Creation
 

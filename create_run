@@ -1,0 +1,1 @@
+rails generate model Item name:string deleted_at:datetime
